@@ -60,7 +60,7 @@ class HuaWeiApi():
             type = record_type,
             name = name,
             ttl = ttl,
-            weight = 1,
+            weight = 2,
             records = [value],
             line = self.line_format(line)
         )
